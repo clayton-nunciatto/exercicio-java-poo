@@ -1,0 +1,5 @@
+Exercício 1: Aluno.java — o programa desta aula, compilado com javac e executado com java. No commit, descreva no commit message o que cada um dos dois comandos fez;
+
+javac e o nome do arquivo com a extensão .java, desde que o nome do arquivo seja igual ao da classe, este comando compila o arquivo e gera um executável com a extensão .class
+
+java e o nome do arquivo compilado, sem colocar a extensão, executa o programa e exibe no console o resultado

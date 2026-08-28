@@ -1,0 +1,24 @@
+Exercício 3: Erros.java — provoque três erros de compilação diferentes (esqueça um ;, escreva errado o nome de um método, deixe uma chave sem fechar). Rode javac a cada um, copie a mensagem do compilador num comentário do arquivo e conserte;
+
+------------------------------------------------------------------------------------------------------------------------------------------
+Primeiro erro, esquecendo um ;
+
+Aluno.java:5: error: ';' expected
+                System.out.println("Olá, mundo")
+                                                ^
+1 error
+
+------------------------------------------------------------------------------------------------------------------------------------------
+Segundo erro, escrevendo errado o nome de um classe, no nome do arquivo com a primeira letra maiúscula e no programa em minusculo
+
+Aluno.java:1: error: class aluno is public, should be declared in a file named aluno.java
+public class aluno {
+       ^
+1 error
+
+------------------------------------------------------------------------------------------------------------------------------------------Terceiro erro, deixando uma chave sem fechar
+
+Aluno.java:5: error: reached end of file while parsing
+}
+ ^
+1 error
