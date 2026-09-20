@@ -4,5 +4,5 @@
 /**
  * 
  */
-module exercicios.br {
+module br.exercicios {
 }
